@@ -1,6 +1,6 @@
 import withPWA from "next-pwa";
 import mdx from "@next/mdx";
-import { compose } from "next-compose-plugins";
+import compose from "next-compose-plugins";
 
 const withMDX = mdx({
   extension: /\.mdx?$/,
